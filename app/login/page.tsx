@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button";
 import { client } from "../api/config";
 import { Account } from "appwrite";
 
-export const SigninValidation = z.object({
+const SigninValidation = z.object({
   email: z.string().email(),
   password: z.string().min(8, { message: "Password must be at least 8 characters." }),
 });
