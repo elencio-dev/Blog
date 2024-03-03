@@ -5,7 +5,6 @@ import CreatBlog from "@/components/ui/createblog";
 import { Account } from 'appwrite';
 import { client } from '../api/config';
 
-
 const account = new Account(client);
 
 export default function Page() {

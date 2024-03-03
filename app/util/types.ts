@@ -8,6 +8,7 @@ export type blogProps = {
     slug?:string
   }
   
+  
   export type PageParams = {
     slug: string;
   };
